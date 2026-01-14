@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simple Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">My Website</h1>
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="site-nav">
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img src="assets/hero.svg" alt="Decorative hero" class="hero-img">
+        <h2>Build something great</h2>
+        <p>Fast, responsive, and simple starter website.</p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery container">
+      <h3>Gallery</h3>
+      <div class="gallery-grid">
+        <img src="assets/Saikiran.jpeg" alt="Saikiran photo 1">
+        <img src="assets/Saikiran%201.jpeg" alt="Saikiran photo 2">
+        <img src="assets/Saikiran3.jpeg" alt="Saikiran photo 3">
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <div class="feature">
+        <img src="assets/feat1.svg" alt="Responsive icon" class="feature-img">
+        <h3>Responsive</h3>
+        <p>Looks good on any device.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/feat2.svg" alt="Lightweight icon" class="feature-img">
+        <h3>Lightweight</h3>
+        <p>Minimal dependencies and easy to customize.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/feat3.svg" alt="Interactive icon" class="feature-img">
+        <h3>Interactive</h3>
+        <p>Small JS to handle basic interactions.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Contact</h3>
+      <form id="contact-form">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="form-msg" class="form-msg" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 My Website</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
