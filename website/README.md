@@ -39,3 +39,6 @@ If your images are JPG/PNG, keep the same filenames or update `index.html` to po
 Gallery:
 - The `assets/` folder already contains three JPEG photos; a `Gallery` section has been added to `index.html` to display them.
 - If you add more images to `assets/`, update `index.html` or run the included `import-images.ps1` (not present yet) to copy files into `assets/`.
+
+Author:
+- This site was created for and by Saikiran. References to `Saikiran` appear in the site header and footer.
